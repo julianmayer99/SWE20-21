@@ -5,21 +5,21 @@
 	<node uin="-46k66rkh20idxxdjhoa6">
 		<property name="$metaclass" value="Activity20"/>
 		<property name="$name" value="Spielzug"/>
-		<node uin="-qbjze4kh22mgtqdy6eqe">
+		<node uin="-qbjze4khc3n61ptfzmd">
 			<property name="$metaclass" value="Action20"/>
-			<property name="$name" value="Joker wird durch Handkarte des Spielers ersetzt, Joker wird in die Hand des Spielers aufgenommen"/>
-			<link uin="ieje0rkh22qvnb-mimqks">
+			<property name="$name" value="Eröffnen"/>
+			<link uin="ieje0rkhc3ozqk-l0l5wa">
 				<property name="$metaclass" value="ControlFlow20"/>
-				<participant referencedUin="design:node:::-qbjze4kh22mgtqdy6eqe:-46k66rkh20idxxdjhoa6" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3n61ptfzmd:-46k66rkh20idxxdjhoa6" role="Client"></participant>
 				<participant referencedUin="design:node:::bqzeb2kh20zfyj-91mjkc:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
 		</node>
-		<node uin="-qbjze4kh21dspfqfu0ia">
+		<node uin="-qbjze4kh22mgtqdy6eqe">
 			<property name="$metaclass" value="Action20"/>
-			<property name="$name" value="ausgewählte Karten aus der Hand des Spielers in die Struktur legen"/>
-			<link uin="ieje0rkh21iilk2sbkfd">
+			<property name="$name" value="Joker austauschen"/>
+			<link uin="ieje0rkh22qvnb-mimqks">
 				<property name="$metaclass" value="ControlFlow20"/>
-				<participant referencedUin="design:node:::-qbjze4kh21dspfqfu0ia:-46k66rkh20idxxdjhoa6" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4kh22mgtqdy6eqe:-46k66rkh20idxxdjhoa6" role="Client"></participant>
 				<participant referencedUin="design:node:::bqzeb2kh20zfyj-91mjkc:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
 		</node>
@@ -34,11 +34,11 @@
 		</node>
 		<node uin="-qbjze4kh211pbkzhqjsl">
 			<property name="$metaclass" value="Action20"/>
-			<property name="$name" value="neue Struktur erstellen"/>
-			<link uin="ieje0rkh21fhixit6q6n">
+			<property name="$name" value="Struktur erzeugen"/>
+			<link uin="ieje0rkhc41qnciu9mmu">
 				<property name="$metaclass" value="ControlFlow20"/>
 				<participant referencedUin="design:node:::-qbjze4kh211pbkzhqjsl:-46k66rkh20idxxdjhoa6" role="Client"></participant>
-				<participant referencedUin="design:node:::-qbjze4kh21dspfqfu0ia:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
+				<participant referencedUin="design:node:::bqzeb2kh20zfyj-91mjkc:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
 		</node>
 		<node uin="l7v8ckh211dmv-v6dv3s">
@@ -67,6 +67,11 @@
 				<property name="guard" value="Joker austauschen"/>
 				<participant referencedUin="design:node:::l7v8ckh211dmv-v6dv3s:-46k66rkh20idxxdjhoa6" role="Client"></participant>
 				<participant referencedUin="design:node:::-qbjze4kh22mgtqdy6eqe:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3oeuh5klfqc">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::l7v8ckh211dmv-v6dv3s:-46k66rkh20idxxdjhoa6" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3n61ptfzmd:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
 		</node>
 		<node uin="l7v8ckh20r61i-4c73tj">
@@ -122,11 +127,6 @@
 				<participant referencedUin="design:node:::a6k48rkh20m8s5-a0lup7:-46k66rkh20idxxdjhoa6" role="Client"></participant>
 				<participant referencedUin="design:node:::-qbjze4kh211w7g-h5j0sz:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
-			<link uin="ieje0rkh21dspf-2qkrid">
-				<property name="$metaclass" value="containedNode"/>
-				<participant referencedUin="design:node:::a6k48rkh20m8s5-a0lup7:-46k66rkh20idxxdjhoa6" role="Client"></participant>
-				<participant referencedUin="design:node:::-qbjze4kh21dspfqfu0ia:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
-			</link>
 			<link uin="ieje0rkh21o5d7-kihkv4">
 				<property name="$metaclass" value="containedNode"/>
 				<participant referencedUin="design:node:::a6k48rkh20m8s5-a0lup7:-46k66rkh20idxxdjhoa6" role="Client"></participant>
@@ -147,11 +147,11 @@
 				<participant referencedUin="design:node:::a6k48rkh20m8s5-a0lup7:-46k66rkh20idxxdjhoa6" role="Client"></participant>
 				<participant referencedUin="design:node:::l7v8ckh22nkkn-4erya9:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
 			</link>
-			<node uin="zeh7lckh237ux5i98quf">
-				<property name="$metaclass" value="Note"/>
-				<property name="$name" value="Note1"/>
-				<property name="$note_text" value="Wir haben keine extend/ Include Usecases"/>
-			</node>
+			<link uin="ieje0rkhc3n61p-jgtqd6">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkh20m8s5-a0lup7:-46k66rkh20idxxdjhoa6" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3n61ptfzmd:-46k66rkh20idxxdjhoa6" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="a6k48rkh20ls1ewqdm4n">
 			<property name="$metaclass" value="ActivityPartition"/>
@@ -220,7 +220,7 @@
 		</node>
 		<node uin="-qbjze4kh211w7g-h5j0sz">
 			<property name="$metaclass" value="Action20"/>
-			<property name="$name" value="Karten aus der Hand des Spielers an die richtige Stelle der Struktur legen"/>
+			<property name="$name" value="Karten anlegen"/>
 			<link uin="ieje0rkh21iljf8tp1yj">
 				<property name="$metaclass" value="ControlFlow20"/>
 				<participant referencedUin="design:node:::-qbjze4kh211w7g-h5j0sz:-46k66rkh20idxxdjhoa6" role="Client"></participant>
@@ -229,7 +229,7 @@
 		</node>
 		<node uin="67yhqwkh21o5d7-u6jshe">
 			<property name="$metaclass" value="Action20"/>
-			<property name="$name" value="Ausgewählte Karte wir oben auf den aufgedeckten Stapel abgelegt"/>
+			<property name="$name" value="Karte ablegen"/>
 			<link uin="ieje0rkh21oe69-rn2alq">
 				<property name="$metaclass" value="ControlFlow20"/>
 				<participant referencedUin="design:node:::67yhqwkh21o5d7-u6jshe:-46k66rkh20idxxdjhoa6" role="Client"></participant>
@@ -277,9 +277,35 @@
 	<node uin="8krugmkh22zir3-hizzdj">
 		<property name="$metaclass" value="UseCaseClassifier20"/>
 		<property name="$name" value="Subject1"/>
-		<node uin="gj7tthkh232nfcmum33">
+		<node uin="gj7tthkhc302vw-i1fnm9">
 			<property name="$metaclass" value="UseCase20"/>
-			<property name="$name" value="Partie beenden"/>
+			<property name="$name" value="Struktur erzeugen"/>
+			<link uin="ieje0rkhc313z0roji42">
+				<property name="$metaclass" value="Extend20"/>
+				<property name="label" value="bereits eröffnet"/>
+				<participant referencedUin="design:node:::gj7tthkhc302vw-i1fnm9:8krugmkh22zir3-hizzdj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkh232dpnd32k62:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkhc2yqz3-y4yt9g">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Karte anlegen"/>
+			<link uin="ieje0rkhc2z4rjfydgg4">
+				<property name="$metaclass" value="Extend20"/>
+				<property name="label" value="bereits eröffnet"/>
+				<participant referencedUin="design:node:::gj7tthkhc2yqz3-y4yt9g:8krugmkh22zir3-hizzdj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkh232dpnd32k62:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="gj7tthkhc2x69pugvs40">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Eröffnen"/>
+			<link uin="ieje0rkhc2xlh8fd512a">
+				<property name="$metaclass" value="Extend20"/>
+				<property name="label" value="noch nicht eröffnet und mehr als 40pkt"/>
+				<participant referencedUin="design:node:::gj7tthkhc2x69pugvs40:8krugmkh22zir3-hizzdj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkh232dpnd32k62:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="gj7tthkh232dpnd32k62">
 			<property name="$metaclass" value="UseCase20"/>
@@ -292,6 +318,16 @@
 		<node uin="gj7tthkh231o6ya0v6ay">
 			<property name="$metaclass" value="UseCase20"/>
 			<property name="$name" value="Partie erstellen"/>
+		</node>
+		<node uin="828xu1khc30ynyyrsm9u">
+			<property name="$metaclass" value="UseCase20"/>
+			<property name="$name" value="Joker austauschen"/>
+			<link uin="ieje0rkhc31fgg-30r3j5">
+				<property name="$metaclass" value="Extend20"/>
+				<property name="label" value="bereits eröffnet"/>
+				<participant referencedUin="design:node:::828xu1khc30ynyyrsm9u:8krugmkh22zir3-hizzdj" role="Client"></participant>
+				<participant referencedUin="design:node:::gj7tthkh232dpnd32k62:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+			</link>
 		</node>
 	</node>
 	<node uin="8bho0jkh22zpuwnv4luu">
@@ -308,11 +344,6 @@
 			<property name="$metaclass" value="KernelAssociation20"/>
 			<participant referencedUin="design:node:::8bho0jkh22zpuwnv4luu" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkh231o6ya0v6ay:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
-		</link>
-		<link uin="ieje0rkh23392n-qf7pha">
-			<property name="$metaclass" value="KernelAssociation20"/>
-			<participant referencedUin="design:node:::8bho0jkh22zpuwnv4luu" role="Client"></participant>
-			<participant referencedUin="design:node:::gj7tthkh232nfcmum33:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
 		</link>
 	</node>
 	<node uin="8bho0jkh230ont-9rhxdr">
@@ -339,5 +370,584 @@
 			<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Client"></participant>
 			<participant referencedUin="design:node:::gj7tthkh232dpnd32k62:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
 		</link>
+		<link uin="ieje0rkhc68vsacm2s4x">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkhc2x69pugvs40:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkhc68xo8-69g5h9">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkhc302vw-i1fnm9:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkhc690ohbzyp4w">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Client"></participant>
+			<participant referencedUin="design:node:::gj7tthkhc2yqz3-y4yt9g:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+		</link>
+		<link uin="ieje0rkhc692z2-kfz754">
+			<property name="$metaclass" value="KernelAssociation20"/>
+			<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Client"></participant>
+			<participant referencedUin="design:node:::828xu1khc30ynyyrsm9u:8krugmkh22zir3-hizzdj" role="Supplier"></participant>
+		</link>
+	</node>
+	<node uin="-46k66rkhc3e44abtkpds">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Eröffnen"/>
+		<node uin="-qbjze4khc3lezerc3ltv">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="eröffnet wird vermerkt"/>
+			<link uin="ieje0rkhc3mln7x1ypyu">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3lezerc3ltv:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc3kq5n-uzq208:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-5vj00pkhc3kq5n-uzq208">
+			<property name="$metaclass" value="ActivityFinalNode20"/>
+			<property name="$name" value="ActivityFinalNode21"/>
+		</node>
+		<node uin="l7v8ckhc3iyqcmb9yel">
+			<property name="$metaclass" value="DecisionNode20"/>
+			<property name="$name" value="DecisionNode20"/>
+			<link uin="ieje0rkhc3jfs1ic0q8n">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Passt"/>
+				<participant referencedUin="design:node:::l7v8ckhc3iyqcmb9yel:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3idwut2dezg:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3kvcz-pd1dhn">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Sonst"/>
+				<participant referencedUin="design:node:::l7v8ckhc3iyqcmb9yel:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc3kq5n-uzq208:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc3idwut2dezg">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Karten werden von der Hand des Spielers in die neu erzeugte Struktur gelegt"/>
+			<link uin="ieje0rkhc3mgss-giq0hm">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3idwut2dezg:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3lezerc3ltv:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc3hvrkz4c1ee">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="System prüft Eröffnungsbedingungen"/>
+			<link uin="ieje0rkhc3m8pk19460h">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3hvrkz4c1ee:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc3iyqcmb9yel:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="88joqskhc3flljarmq6n">
+			<property name="$metaclass" value="InitialNode20"/>
+			<property name="$name" value="InitialNode20"/>
+			<link uin="ieje0rkhc3m4ow-5yzc7c">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::88joqskhc3flljarmq6n:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::6isrwpkhc3h4ac-3bws98:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc3eyvbhbgjvm">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="MyRommé"/>
+			<link uin="ieje0rkhc3hvrkmhw3mm">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3eyvbhbgjvm:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3hvrkz4c1ee:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3idwuarcnh">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3eyvbhbgjvm:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3idwut2dezg:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3iyqc-dil0fn">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3eyvbhbgjvm:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc3iyqcmb9yel:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3kq5n-f8u9c5">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3eyvbhbgjvm:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc3kq5n-uzq208:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3lezf4aenmd">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3eyvbhbgjvm:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3lezerc3ltv:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc3ejoqswz1az">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="Spieler"/>
+			<link uin="ieje0rkhc3fllj-vn433o">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3ejoqswz1az:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::88joqskhc3flljarmq6n:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3h4achmum8q">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3ejoqswz1az:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::6isrwpkhc3h4ac-3bws98:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="6isrwpkhc3h4ac-3bws98">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt Karten"/>
+			<link uin="ieje0rkhc3m6h6-6btbbn">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::6isrwpkhc3h4ac-3bws98:-46k66rkhc3e44abtkpds" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3hvrkz4c1ee:-46k66rkhc3e44abtkpds" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-46k66rkhc3t1sqq6n5hj">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Struktur erzeugen"/>
+		<node uin="-5vj00pkhc40i9khbecc5">
+			<property name="$metaclass" value="ActivityFinalNode20"/>
+			<property name="$name" value="ActivityFinalNode20"/>
+		</node>
+		<node uin="l7v8ckhc3zgxrdqlbav">
+			<property name="$metaclass" value="DecisionNode20"/>
+			<property name="$name" value="DecisionNode20"/>
+			<link uin="ieje0rkhc3zmnp-deh0xn">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Passt"/>
+				<participant referencedUin="design:node:::l7v8ckhc3zgxrdqlbav:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3yqthjd8kwy:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc40m78nirvs8">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="sonst"/>
+				<participant referencedUin="design:node:::l7v8ckhc3zgxrdqlbav:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc40i9khbecc5:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc3yqthjd8kwy">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Karten werden von der Hand des Spielers in die neu erzeugte Struktur gelegt"/>
+			<link uin="ieje0rkhc40r2fwlz2s1">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3yqthjd8kwy:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc40i9khbecc5:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc3x64b30ekm1">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="System prüft Strukturbedingungen"/>
+			<link uin="ieje0rkhc3zkpi-rxtu21">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3x64b30ekm1:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc3zgxrdqlbav:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="88joqskhc3wp1i-j9olta">
+			<property name="$metaclass" value="InitialNode20"/>
+			<property name="$name" value="InitialNode20"/>
+			<link uin="ieje0rkhc3wxjo-iz731o">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::88joqskhc3wp1i-j9olta:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3w6kw-751crc:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc3w6kw-751crc">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt Karten"/>
+			<link uin="ieje0rkhc3xubgdcc0fx">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc3w6kw-751crc:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3x64b30ekm1:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc3v6xl-2zitku">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="MyRommé"/>
+			<link uin="ieje0rkhc3x64bis9vkr">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3v6xl-2zitku:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3x64b30ekm1:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3yqthj6v57j">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3v6xl-2zitku:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3yqthjd8kwy:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3zgxrr23bhr">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3v6xl-2zitku:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc3zgxrdqlbav:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc40i9kvn2ba7">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3v6xl-2zitku:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc40i9khbecc5:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc3tn0n3ezvkx">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="Spieler"/>
+			<link uin="ieje0rkhc3w6kw6hpdwi">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3tn0n3ezvkx:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc3w6kw-751crc:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc3wp1i4yc5wp">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc3tn0n3ezvkx:-46k66rkhc3t1sqq6n5hj" role="Client"></participant>
+				<participant referencedUin="design:node:::88joqskhc3wp1i-j9olta:-46k66rkhc3t1sqq6n5hj" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-46k66rkhc42wgulhcl4u">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Karten anlegen"/>
+		<node uin="-qbjze4khc49hfbyt6202">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Karten werden aus der Hand in die Struktur gelegt"/>
+			<link uin="ieje0rkhc4cpuj-imw5ut">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc49hfbyt6202:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4975f-n5cwag:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-5vj00pkhc4975f-n5cwag">
+			<property name="$metaclass" value="ActivityFinalNode20"/>
+			<property name="$name" value="ActivityFinalNode20"/>
+		</node>
+		<node uin="l7v8ckhc48sb6t4hg5a">
+			<property name="$metaclass" value="DecisionNode20"/>
+			<property name="$name" value="DecisionNode20"/>
+			<link uin="ieje0rkhc4clms-iq5215">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Passt"/>
+				<participant referencedUin="design:node:::l7v8ckhc48sb6t4hg5a:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc49hfbyt6202:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4cnk7wevsi1">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="sonst"/>
+				<participant referencedUin="design:node:::l7v8ckhc48sb6t4hg5a:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4975f-n5cwag:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc46tu8788gq3">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="System prüft ob anlegen möglich ist"/>
+			<link uin="ieje0rkhc4cjxa-vo20fu">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc46tu8788gq3:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc48sb6t4hg5a:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc45qcy-ly0wou">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt aus eigenen Karten aus"/>
+			<link uin="ieje0rkhc483now38c72">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc45qcy-ly0wou:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc46tu8788gq3:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc451d4-av4ojy">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt bestehende Struktur aus"/>
+			<link uin="ieje0rkhc46d08-49x0v2">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc451d4-av4ojy:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc45qcy-ly0wou:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc43ze9-2r1c59">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="MyRommé"/>
+			<link uin="ieje0rkhc46tu81hkbrm">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43ze9-2r1c59:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc46tu8788gq3:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc48sb61aysuo">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43ze9-2r1c59:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc48sb6t4hg5a:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4975g-3bpcds">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43ze9-2r1c59:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4975f-n5cwag:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc49hfb-kmqixz">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43ze9-2r1c59:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc49hfbyt6202:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc43mei-2xmqeu">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="Spieler"/>
+			<link uin="ieje0rkhc44hvfjj0bac">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43mei-2xmqeu:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::88joqskhc44hvfmrsbsj:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc451d476u3cw">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43mei-2xmqeu:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc451d4-av4ojy:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc45qcy-o9cw0s">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc43mei-2xmqeu:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc45qcy-ly0wou:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="88joqskhc44hvfmrsbsj">
+			<property name="$metaclass" value="InitialNode20"/>
+			<property name="$name" value="InitialNode20"/>
+			<link uin="ieje0rkhc46b71-9a0sj1">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::88joqskhc44hvfmrsbsj:-46k66rkhc42wgulhcl4u" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc451d4-av4ojy:-46k66rkhc42wgulhcl4u" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-46k66rkhc4i35n-sn4px2">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Activity3"/>
+	</node>
+	<node uin="-46k66rkhc4iau6-qh7pl8">
+		<property name="$metaclass" value="Activity20"/>
+		<property name="$name" value="Joker austauschen"/>
+		<node uin="-5vj00pkhc4ox1d1t6dgd">
+			<property name="$metaclass" value="ActivityFinalNode20"/>
+			<property name="$name" value="ActivityFinalNode20"/>
+		</node>
+		<node uin="-qbjze4khc4nzuaey2ly7">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Joker wird in die Hand des Spielers gelegt"/>
+			<link uin="ieje0rkhc4p8nz-66p1i5">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc4nzuaey2ly7:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4ox1d1t6dgd:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc4n99i-65tqcw">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Karte aus der Hand ersetzt den Joker in der Struktur."/>
+			<link uin="ieje0rkhc4p6ti-gnmo46">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc4n99i-65tqcw:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4nzuaey2ly7:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="l7v8ckhc4n5pm-csrkme">
+			<property name="$metaclass" value="DecisionNode20"/>
+			<property name="$name" value="DecisionNode20"/>
+			<link uin="ieje0rkhc4p53dw2e63">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Ja"/>
+				<participant referencedUin="design:node:::l7v8ckhc4n5pm-csrkme:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4n99i-65tqcw:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4pb2q-4mrmp2">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<property name="label" value="Nein"/>
+				<participant referencedUin="design:node:::l7v8ckhc4n5pm-csrkme:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4ox1d1t6dgd:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc4m2mmv3tupn">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Prüft ob Joker mit dieser Karte ersetzt werden kann"/>
+			<link uin="ieje0rkhc4p2qvie621t">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc4m2mmv3tupn:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc4n5pm-csrkme:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-qbjze4khc4jjo3-qpgb8w">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt bestehende Struktur mit Joker aus"/>
+			<link uin="ieje0rkhc4mxqa-87m3ts">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::-qbjze4khc4jjo3-qpgb8w:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::g5zffgkhc4l2aa-r7kygp:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc4j7fwnufnjr">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="MyRommé"/>
+			<link uin="ieje0rkhc4m2mm-b0e0p4">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4j7fwnufnjr:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4m2mmv3tupn:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4n5pm-qhroqz">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4j7fwnufnjr:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::l7v8ckhc4n5pm-csrkme:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4n99ijabi7k">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4j7fwnufnjr:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4n99i-65tqcw:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4nzuademebn">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4j7fwnufnjr:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4nzuaey2ly7:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4ox1dnstqd4">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4j7fwnufnjr:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-5vj00pkhc4ox1d1t6dgd:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="a6k48rkhc4igr4wjr8ax">
+			<property name="$metaclass" value="ActivityPartition"/>
+			<property name="$name" value="Spieler"/>
+			<link uin="ieje0rkhc4jjo3-5mfark">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4igr4wjr8ax:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4jjo3-qpgb8w:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4k6y6kjdi5y">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4igr4wjr8ax:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::88joqskhc4k6y62wrznt:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhc4l2ab2f5dx1">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhc4igr4wjr8ax:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::g5zffgkhc4l2aa-r7kygp:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="88joqskhc4k6y62wrznt">
+			<property name="$metaclass" value="InitialNode20"/>
+			<property name="$name" value="InitialNode21"/>
+			<link uin="ieje0rkhc4mvz5c20p3k">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::88joqskhc4k6y62wrznt:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4jjo3-qpgb8w:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="g5zffgkhc4l2aa-r7kygp">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Spieler wählt eine Karte aus seiner Hand aus"/>
+			<link uin="ieje0rkhc4mz17-kra6gc">
+				<property name="$metaclass" value="ControlFlow20"/>
+				<participant referencedUin="design:node:::g5zffgkhc4l2aa-r7kygp:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4khc4m2mmv3tupn:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-yrgd8ekhc5vy7bw9jv69">
+		<property name="$metaclass" value="SD20_Interaction"/>
+		<property name="$name" value="Struktur erzeugen"/>
+		<node uin="-y8nsowkhc5zhbb-gem8pa">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline2"/>
+			<property name="connectableElementName" value="MyRommé"/>
+			<node uin="c87hzvkhc6dkz2-ka4yn2">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<node uin="7x5rzxkhc6k8swtabk8l">
+				<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+				<property name="$name" value="SD20_Int_MountingRegion1"/>
+				<link uin="ieje0rkhc6k8sxgdkq84">
+					<property name="$metaclass" value="SD20_Int_MountingLink"/>
+					<participant referencedUin="design:node:::7x5rzxkhc6k8swtabk8l:-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+					<participant referencedUin="design:node:::7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+				</link>
+				<node uin="7x5rzxkhc6k8sx-jks7iz">
+					<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+					<property name="$name" value="SD20_Int_MountingRegion1"/>
+					<link uin="ieje0rkhc6k8sy8hae4x">
+						<property name="$metaclass" value="SD20_Int_MountingLink"/>
+						<participant referencedUin="design:node:::7x5rzxkhc6k8sx-jks7iz:7x5rzxkhc6k8swtabk8l:-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+						<participant referencedUin="design:node:::-yp8yhkhc6k8sxuclqr2:7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+					</link>
+				</node>
+				<node uin="7x5rzxkhc6k8sypswi9k">
+					<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+					<property name="$name" value="SD20_Int_MountingRegion2"/>
+					<link uin="ieje0rkhc6k8sz-4y6l6h">
+						<property name="$metaclass" value="SD20_Int_MountingLink"/>
+						<participant referencedUin="design:node:::7x5rzxkhc6k8sypswi9k:7x5rzxkhc6k8swtabk8l:-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+						<participant referencedUin="design:node:::-yp8yhkhc6k8syw8z1kt:7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+					</link>
+				</node>
+			</node>
+			<link uin="ieje0rkhc6ey9g-q4oiwi">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-y8nsowkhc5x97r-oy5kq4">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline1"/>
+			<property name="connectableElementName" value="Spieler"/>
+			<node uin="l2gqtvkhc6dkz1-b37g5a">
+				<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+				<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+				<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkhc6dkz2-ka4yn2:-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69"/>
+				<property name="call_label" value="Karten auswählen"/>
+				<property name="call_cachedSequenceNumber" value="1"/>
+			</node>
+			<node uin="7x5rzxkhc6kcier3fli1">
+				<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+				<property name="$name" value="SD20_Int_MountingRegion1"/>
+				<link uin="ieje0rkhc6kcif-1j2sjf">
+					<property name="$metaclass" value="SD20_Int_MountingLink"/>
+					<participant referencedUin="design:node:::7x5rzxkhc6kcier3fli1:-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+					<participant referencedUin="design:node:::7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+				</link>
+				<node uin="7x5rzxkhc6kcif-ualqmz">
+					<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+					<property name="$name" value="SD20_Int_MountingRegion1"/>
+					<link uin="ieje0rkhc6kcif-nncs96">
+						<property name="$metaclass" value="SD20_Int_MountingLink"/>
+						<participant referencedUin="design:node:::7x5rzxkhc6kcif-ualqmz:7x5rzxkhc6kcier3fli1:-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+						<participant referencedUin="design:node:::-yp8yhkhc6k8sxuclqr2:7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+					</link>
+				</node>
+				<node uin="7x5rzxkhc6kciguut34z">
+					<property name="$metaclass" value="SD20_Int_MountingRegion"/>
+					<property name="$name" value="SD20_Int_MountingRegion2"/>
+					<link uin="ieje0rkhc6kcig-k6qne3">
+						<property name="$metaclass" value="SD20_Int_MountingLink"/>
+						<participant referencedUin="design:node:::7x5rzxkhc6kciguut34z:7x5rzxkhc6kcier3fli1:-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+						<participant referencedUin="design:node:::-yp8yhkhc6k8syw8z1kt:7chx8lkhc6k8sw-5q3d5w:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+					</link>
+				</node>
+			</node>
+			<link uin="ieje0rkhc6dkz9-jtlvcd">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="7chx8lkhc6k8sw-5q3d5w">
+			<property name="$metaclass" value="SD20_CombinedFragment"/>
+			<property name="$name" value="SD20_CombinedFragment1"/>
+			<node uin="-yydlhskhc6k8sx-izpwaa">
+				<property name="$metaclass" value="SD20_Int_OperatorHolder"/>
+				<property name="$name" value="SD20_Int_OperatorHolder1"/>
+				<property name="operator" value="alt"/>
+			</node>
+			<node uin="-yp8yhkhc6k8sxuclqr2">
+				<property name="$metaclass" value="SD20_InteractionOperand"/>
+				<property name="$name" value="Strukturbedingungen erfüllt"/>
+				<property name="stereotype" value="Strukturbedingungen erfüllt"/>
+			</node>
+			<node uin="-yp8yhkhc6k8syw8z1kt">
+				<property name="$metaclass" value="SD20_InteractionOperand"/>
+				<property name="$name" value="SD20_InteractionOperand2"/>
+			</node>
+		</node>
 	</node>
 </nodeSet>
