@@ -927,6 +927,11 @@
 				<participant referencedUin="design:node:::-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
 				<participant referencedUin="design:node:::-y8nsowkhc5zhbb-gem8pa:-yrgd8ekhc5vy7bw9jv69" role="Supplier"></participant>
 			</link>
+			<link uin="ieje0rkhg54fb1-s8cb3k">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="7chx8lkhf7sq26lu20uc">
 			<property name="$metaclass" value="SD20_CombinedFragment"/>
@@ -1206,6 +1211,11 @@
 				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
 				<participant referencedUin="design:node:::-y8nsowkhez7ps2128sew:-yrgd8ekhez6b6a-voi643" role="Client"></participant>
 				<participant referencedUin="design:node:::-y8nsowkhez7zpj-ql4umu:-yrgd8ekhez6b6a-voi643" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkhg544x4-kaevll">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkhez7ps2128sew:-yrgd8ekhez6b6a-voi643" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jkh2315yx8vc5gi" role="Supplier"></participant>
 			</link>
 		</node>
 		<node uin="7chx8lkhezck8j-w90i2j">
