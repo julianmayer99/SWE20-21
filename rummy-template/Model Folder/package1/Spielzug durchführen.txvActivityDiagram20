@@ -34,7 +34,7 @@
 					<property name="background_color" value="0,255,255"/>
 					<reference referencedUin="design:link:::ieje0rkhc3ozqk-l0l5wa:-qbjze4khc3n61ptfzmd:-46k66rkh20idxxdjhoa6">
 						<property name="sourceAnchor" value="961,658"/>
-						<property name="targetAnchor" value="1085,274"/>
+						<property name="targetAnchor" value="1085,260"/>
 						<property name="bendpoints" value="1260,658,1260,260"/>
 						<property name="smooth_bendpoints" value="1260,658,1260,260"/>
 						<property name="location_set_by_user" value="true"/>
@@ -104,7 +104,7 @@
 					</reference>
 					<reference referencedUin="design:link:::ieje0rkh22sxm1u6bm33:l7v8ckh22nkkn-4erya9:-46k66rkh20idxxdjhoa6">
 						<property name="sourceAnchor" value="890,776"/>
-						<property name="targetAnchor" value="1085,274"/>
+						<property name="targetAnchor" value="1075,240"/>
 						<property name="bendpoints" value="890,720,1300,720,1300,240"/>
 						<property name="location_set_by_user" value="true"/>
 						<property name="smooth_bendpoints" value="890,720,1300,720,1300,240"/>
@@ -134,9 +134,9 @@
 					<reference referencedUin="design:link:::ieje0rkh22qvnb-mimqks:-qbjze4kh22mgtqdy6eqe:-46k66rkh20idxxdjhoa6">
 						<property name="sourceAnchor" value="961,590"/>
 						<property name="targetAnchor" value="1085,274"/>
-						<property name="bendpoints" value="1220,590,1220,280"/>
+						<property name="bendpoints" value="1220,590,1220,280,1120,280"/>
 						<property name="location_set_by_user" value="true"/>
-						<property name="smooth_bendpoints" value="1220,590,1220,280"/>
+						<property name="smooth_bendpoints" value="1220,590,1220,280,1120,280"/>
 					</reference>
 				</reference>
 				<reference referencedUin="design:node:::5e2wvzkh20z8up-sxnga4:-46k66rkh20idxxdjhoa6">

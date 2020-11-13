@@ -9,7 +9,7 @@
 		<property name="$name" value="Spielzugdurchführen"/>
 		<reference referencedUin="design:node:::-yrgd8ekhez6b6a-voi643">
 			<property name="$shortcutReference" value="true"/>
-			<property name="bounds" value="5,5,1011,927"/>
+			<property name="bounds" value="5,5,651,871"/>
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
 			<reference referencedUin="design:node:::-y8nsowkhez7zpj-ql4umu:-yrgd8ekhez6b6a-voi643">

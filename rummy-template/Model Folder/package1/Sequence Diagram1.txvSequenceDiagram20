@@ -27,7 +27,7 @@
 							<property name="targetAnchor" value="584,194"/>
 							<property name="location_set_by_user" value="true"/>
 							<reference referencedUin="label:label:sd20_message|1|call|82(design:node:::l2gqtvkhc6dkz1-b37g5a:-y8nsowkhc5x97r-oy5kq4:-yrgd8ekhc5vy7bw9jv69)">
-								<property name="bounds" value="281,194,152,19"/>
+								<property name="bounds" value="286,194,152,19"/>
 							</reference>
 						</reference>
 					</reference>

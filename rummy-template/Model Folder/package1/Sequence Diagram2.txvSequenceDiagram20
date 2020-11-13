@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="Vam8ynkkhg6mmvj-kxfum8">
+		<property name="$metaclass" value="SequenceDiagram20"/>
+		<property name="$referencedInteractionUin" value="design:node:::-yrgd8ekhg6mmvl-5qro3d"/>
+		<property name="$name" value="Sequence Diagram2"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+	</view>
+	<link uin="ieje0rkhg6mmw3y0jl3b">
+		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
+		<participant referencedUin="design:view:::Vam8ynkkhg6mmvj-kxfum8" role="Client"></participant>
+		<participant referencedUin="design:node:::-yrgd8ekhg6mmvl-5qro3d" role="Supplier"></participant>
+	</link>
+</nodeSet>
