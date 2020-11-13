@@ -6,8 +6,102 @@
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="$name" value="Class Diagram1"/>
 		<reference referencedUin="jdt:e_class:src:package1.MyRommé">
-			<property name="bounds" value="295,155,89,80"/>
+			<property name="bounds" value="415,195,201,81"/>
 			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkKarte">
+				<property name="sourceAnchor" value="541,281"/>
+				<property name="targetAnchor" value="687,600"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkKarte">
+					<property name="bounds" value="500,320,41,19"/>
+					<property name="weight" value="0.05000000074505806"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkStapel">
+				<property name="sourceAnchor" value="576,281"/>
+				<property name="targetAnchor" value="685,360"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkStapel">
+					<property name="bounds" value="640,300,39,19"/>
+					<property name="weight" value="0.45978871047013026"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkSpieler">
+				<property name="sourceAnchor" value="621,266"/>
+				<property name="targetAnchor" value="1060,383"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkSpieler">
+					<property name="bounds" value="700,260,69,19"/>
+					<property name="weight" value="0.16401928802759"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Spieler">
+			<property name="bounds" value="1055,355,141,101"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:package1.Spieler:lnkStapel">
+				<property name="sourceAnchor" value="1060,410"/>
+				<property name="targetAnchor" value="801,410"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.Spieler:lnkStapel">
+					<property name="bounds" value="891,388,78,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.Spieler:lnkStruktur">
+				<property name="sourceAnchor" value="1185,461"/>
+				<property name="targetAnchor" value="1185,600"/>
+				<property name="bendpoints" value=""/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.Spieler:lnkStruktur">
+					<property name="bounds" value="1188,521,89,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:e_field:src:package1.Spieler.Hand">
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Karte">
+			<property name="bounds" value="655,595,141,101"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:package1.Karte:lnkSpieler">
+				<property name="sourceAnchor" value="801,609"/>
+				<property name="targetAnchor" value="1067,461"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:package1.Karte:lnkStapel">
+				<property name="sourceAnchor" value="730,600"/>
+				<property name="targetAnchor" value="730,461"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Struktur">
+			<property name="bounds" value="1055,595,140,101"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:e_field:src:package1.Struktur.Karten">
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:package1.Struktur:Karten">
+				<property name="sourceAnchor" value="1060,670"/>
+				<property name="targetAnchor" value="801,670"/>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.Struktur:lnkSpieler">
+				<property name="sourceAnchor" value="380,391"/>
+				<property name="targetAnchor" value="1060,391"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Stapel">
+			<property name="bounds" value="655,355,141,101"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
 			<property name="$shortcutReference" value="true"/>
 		</reference>
 	</view>
