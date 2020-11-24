@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="oz78ffkhm3tppokwu3yy">
+		<property name="$metaclass" value="Interface20"/>
+		<property name="$name" value="MeldingCards"/>
+	</node>
+</nodeSet>
