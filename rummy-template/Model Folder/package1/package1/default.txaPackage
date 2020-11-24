@@ -959,6 +959,17 @@
 			<property name="$metaclass" value="SD20_Lifeline"/>
 			<property name="$name" value="Lifeline2"/>
 			<property name="connectableElementName" value="MyRommé"/>
+			<node uin="c87hzvkhez9g67c8hcuk">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<node uin="l2gqtvkhezay43hxxw25">
+				<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+				<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+				<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkhezay43-36pjdv:-y8nsowkhez7ps2128sew:-yrgd8ekhez6b6a-voi643"/>
+				<property name="call_label" value="Karte in Hand legen"/>
+				<property name="call_cachedSequenceNumber" value="2"/>
+			</node>
 			<node uin="7x5rzxkhezcmqa1cm05k">
 				<property name="$metaclass" value="SD20_Int_MountingRegion"/>
 				<property name="$name" value="SD20_Int_MountingRegion1"/>
@@ -1075,6 +1086,17 @@
 			<property name="$name" value="Lifeline1"/>
 			<property name="connectableElementName" value="Spieler"/>
 			<property name="connectableElementType" value="actor"/>
+			<node uin="l2gqtvkhez9g66elop41">
+				<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+				<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+				<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkhez9g67c8hcuk:-y8nsowkhez7zpj-ql4umu:-yrgd8ekhez6b6a-voi643"/>
+				<property name="call_label" value="Stapelauswahl"/>
+				<property name="call_cachedSequenceNumber" value="1"/>
+			</node>
+			<node uin="c87hzvkhezay43-36pjdv">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
 			<node uin="7x5rzxkhezck8khatmgk">
 				<property name="$metaclass" value="SD20_Int_MountingRegion"/>
 				<property name="$name" value="SD20_Int_MountingRegion1"/>
@@ -1257,7 +1279,6 @@
 			</node>
 		</node>
 	</node>
-<<<<<<< Updated upstream
 	<node uin="-yrgd8ekhg6mmvl-5qro3d">
 		<property name="$metaclass" value="SD20_Interaction"/>
 		<property name="$name" value="Interaction"/>
@@ -1420,36 +1441,5 @@
 				<property name="$name" value="SD20_InteractionOperand2"/>
 			</node>
 		</node>
-=======
-	<node uin="-yrgd8ekhg6wp8nkw9clb">
-		<property name="$metaclass" value="SD20_Interaction"/>
-		<property name="$name" value="Joker tauschen"/>
-		<node uin="-y8nsowkhg6x6w3-48rbhb">
-			<property name="$metaclass" value="SD20_Lifeline"/>
-			<property name="$name" value="Lifeline2"/>
-			<property name="connectableElementName" value="MyRommé"/>
-			<node uin="c87hzvkhg6y5zy6e2234">
-				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
-				<property name="$name" value="SD20_ExecutionSpecification2"/>
-			</node>
-		</node>
-		<node uin="-y8nsowkhg6x2actq11qh">
-			<property name="$metaclass" value="SD20_Lifeline"/>
-			<property name="$name" value="Lifeline1"/>
-			<property name="connectableElementName" value="Spieler"/>
-			<node uin="l2gqtvkhg6y5zwjrlglt">
-				<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
-				<property name="$name" value="SD20_Int_InvocationSpecification2"/>
-				<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkhg6y5zy6e2234:-y8nsowkhg6x6w3-48rbhb:-yrgd8ekhg6wp8nkw9clb"/>
-				<property name="call_cachedSequenceNumber" value="2"/>
-				<property name="call_label" value="Joker_tauschen(Handkarte, Joker)"/>
-			</node>
-			<link uin="ieje0rkhg6xgl61xemxz">
-				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
-				<participant referencedUin="design:node:::-y8nsowkhg6x2actq11qh:-yrgd8ekhg6wp8nkw9clb" role="Client"></participant>
-				<participant referencedUin="design:node:::-y8nsowkhg6x6w3-48rbhb:-yrgd8ekhg6wp8nkw9clb" role="Supplier"></participant>
-			</link>
-		</node>
->>>>>>> Stashed changes
 	</node>
 </nodeSet>
