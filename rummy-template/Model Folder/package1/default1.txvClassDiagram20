@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkhw0t8pgo1skn6">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:package1.Spieler">
+			<property name="bounds" value="343,5,126,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:package1.Spieler:lnkStapel">
+				<property name="sourceAnchor" value="410,90"/>
+				<property name="targetAnchor" value="294,312"/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.Spieler:lnkStapel">
+					<property name="bounds" value="266,192,78,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.Spieler:lnkStruktur">
+				<property name="sourceAnchor" value="379,90"/>
+				<property name="targetAnchor" value="81,312"/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.Spieler:lnkStruktur">
+					<property name="bounds" value="186,146,89,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Struktur">
+			<property name="bounds" value="5,307,107,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:package1.Struktur:Karten">
+				<property name="sourceAnchor" value="45,312"/>
+				<property name="targetAnchor" value="173,90"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.MyRommé">
+			<property name="bounds" value="507,307,89,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkKarte">
+				<property name="sourceAnchor" value="541,312"/>
+				<property name="targetAnchor" value="217,90"/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkKarte">
+					<property name="bounds" value="359,164,41,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkStapel">
+				<property name="sourceAnchor" value="512,352"/>
+				<property name="targetAnchor" value="355,352"/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkStapel">
+					<property name="bounds" value="414,330,39,19"/>
+				</reference>
+			</reference>
+			<reference referencedUin="jdt:l_dpn:src:package1.MyRommé:lnkSpieler">
+				<property name="sourceAnchor" value="571,312"/>
+				<property name="targetAnchor" value="442,90"/>
+				<reference referencedUin="label:label:jdt:l_dpn:src:package1.MyRommé:lnkSpieler">
+					<property name="bounds" value="514,192,69,19"/>
+				</reference>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Stapel">
+			<property name="bounds" value="219,307,131,80"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:package1.Karte">
+			<property name="bounds" value="146,5,89,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:package1.Karte:lnkSpieler">
+				<property name="sourceAnchor" value="240,50"/>
+				<property name="targetAnchor" value="348,50"/>
+			</reference>
+			<reference referencedUin="jdt:l_ast:src:package1.Karte:lnkStapel">
+				<property name="sourceAnchor" value="195,90"/>
+				<property name="targetAnchor" value="234,312"/>
+			</reference>
+		</reference>
+		<reference referencedUin="design:view:::V1hexuhkh20f0fqkq2n4m">
+			<property name="bounds" value="-5,-5,141,203"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

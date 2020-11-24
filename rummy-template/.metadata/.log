@@ -1,0 +1,16 @@
+!SESSION 2020-11-24 14:39:36.096 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product com.borland.together.product -product com.borland.together.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.borland.together.product -data D:\FH\Semester_5\SWE\Git\SWE20-21\rummy-template -product com.borland.together.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-24 14:39:45.732
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-24 14:39:45.740
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-11-24 14:39:45.743
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
