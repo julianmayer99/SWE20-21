@@ -183,7 +183,7 @@
 					<property name="location_set_by_user" value="true"/>
 					<property name="bounds_setted_by_user" value="true"/>
 					<reference referencedUin="design:link:::ieje0rkh217dkeivb5l:l7v8ckh211dmv-v6dv3s:-46k66rkh20idxxdjhoa6">
-						<property name="sourceAnchor" value="537,510"/>
+						<property name="sourceAnchor" value="540,508"/>
 						<property name="targetAnchor" value="840,510"/>
 						<property name="location_set_by_user" value="true"/>
 						<reference referencedUin="label:guard:design:link:::ieje0rkh217dkeivb5l:l7v8ckh211dmv-v6dv3s:-46k66rkh20idxxdjhoa6">

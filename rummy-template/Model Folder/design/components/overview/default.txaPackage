@@ -236,4 +236,8 @@
 			<participant referencedUin="jdt:e_class:src:design.components.overview.StompEndPoint" role="Supplier"></participant>
 		</link>
 	</node>
+	<node uin="ba089nkhw1xmlb2yupa7">
+		<property name="$metaclass" value="Component20"/>
+		<property name="$name" value="Component1"/>
+	</node>
 </nodeSet>
