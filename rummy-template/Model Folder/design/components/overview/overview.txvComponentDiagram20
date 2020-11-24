@@ -311,10 +311,5 @@
 				<property name="location_set_by_user" value="true"/>
 			</reference>
 		</reference>
-		<reference referencedUin="design:node:::ba089nkhw1xmlb2yupa7">
-			<property name="bounds" value="1195,195,133,62"/>
-			<property name="location_set_by_user" value="true"/>
-			<property name="$shortcutReference" value="true"/>
-		</reference>
 	</view>
 </nodeSet>
