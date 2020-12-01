@@ -191,6 +191,48 @@
 					<property name="$name" value="turn"/>
 				</node>
 			</node>
+			<node uin="tq87glki65wzuynsd8um">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="mod_Visibility" value="$public"/>
+				<property name="$name" value="testForStructureConditions"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfki66kcazumme1q"/>
+				<node uin="-5kd6yfki66kcazumme1q">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="cards"/>
+					<property name="mod__type" value="Cards[]"/>
+				</node>
+			</node>
+			<node uin="tq87glki66i8z2-wfta3p">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="putHandCardsOnTable"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfki66jo82-z41698"/>
+				<node uin="-5kd6yfki66jo82-z41698">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="cards"/>
+					<property name="mod__type" value="Card[]"/>
+					<property name="direction" value="$in"/>
+				</node>
+			</node>
+			<node uin="tq87glki66n26v5zt7y0">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="createStructure"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfki66nom0-6zvt0m"/>
+				<node uin="-5kd6yfki66nom0-6zvt0m">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="cards"/>
+					<property name="mod__type" value="Card[]"/>
+				</node>
+			</node>
+			<node uin="tq87glki66p9kmkquvcs">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="addPoints"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfki66q1jgfhwelc"/>
+				<node uin="-5kd6yfki66q1jgfhwelc">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="cards"/>
+					<property name="mod__type" value="Card[]"/>
+				</node>
+			</node>
 		</node>
 		<node uin="-amcqg9khm1bapb8b22u5">
 			<property name="$metaclass" value="Interface20"/>

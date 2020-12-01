@@ -2,11 +2,11 @@
 
 
 <nodeSet  version="1.1">
-	<view uin="Vam8ynkki63xatq-my6sxo">
+	<view uin="mc96xuki67ehbmtg4of8">
 		<property name="$metaclass" value="SequenceDiagram20"/>
 		<property name="$referencedInteractionUin" value="design:node:::-yrgd8eki63xatr53r9n7"/>
-		<property name="$name" value="Sequence Diagram2"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
+		<property name="$name" value="Sequence Diagram2_Copy"/>
 		<reference referencedUin="design:node:::-yrgd8eki63xatr53r9n7">
 			<property name="$shortcutReference" value="true"/>
 			<property name="bounds" value="195,35,1451,1441"/>
@@ -249,9 +249,4 @@
 			</reference>
 		</reference>
 	</view>
-	<link uin="ieje0rki63xatt6t0r1h">
-		<property name="$metaclass" value="SequenceDiagram20_LinkToInteraction"/>
-		<participant referencedUin="design:view:::Vam8ynkki63xatq-my6sxo" role="Client"></participant>
-		<participant referencedUin="design:node:::-yrgd8eki63xatr53r9n7" role="Supplier"></participant>
-	</link>
 </nodeSet>
