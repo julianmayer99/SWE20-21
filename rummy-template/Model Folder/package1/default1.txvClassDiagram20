@@ -25,7 +25,7 @@
 			</reference>
 		</reference>
 		<reference referencedUin="jdt:e_class:src:package1.Struktur">
-			<property name="bounds" value="5,307,107,80"/>
+			<property name="bounds" value="5,307,185,80"/>
 			<property name="location_set_by_user" value="true"/>
 			<reference referencedUin="jdt:l_ast:src:package1.Struktur:Karten">
 				<property name="sourceAnchor" value="45,312"/>

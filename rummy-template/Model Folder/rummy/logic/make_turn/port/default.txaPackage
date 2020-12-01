@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<nodeSet  version="1.1">
-	<node uin="vb2cggkhm3tmdz-6ka1ta">
-		<property name="$metaclass" value="Interface20"/>
-		<property name="$name" value="MakeTurn"/>
-	</node>
-</nodeSet>
