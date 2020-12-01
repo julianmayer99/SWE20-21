@@ -15,6 +15,7 @@ import rummy.logic.Dummy;
 import rummy.logic.DummyObserver;
 import rummy.socketmanagement.RummySocketController;
 import rummy.webui.views.View;
+import rummy.logic.domainmodel.*;
 
 @SessionScope
 @Controller
@@ -29,6 +30,21 @@ public class MainController implements DummyObserver {
 
 	private int value;
 
+
+
+
+
+	public void endTurn() {
+		return;
+	}
+
+	public void updateField(Field updatedField) {
+		return;
+	}
+
+	public void drawFromPile(boolean openPile) {
+		return;
+	}
 
 	public void createStructure(Karte[] cards) {
 		return;

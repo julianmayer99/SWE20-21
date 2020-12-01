@@ -9,5 +9,13 @@
 	<node uin="8bho0jki63blbu2wbzdh">
 		<property name="$metaclass" value="Actor20"/>
 		<property name="$name" value="HTML-Client"/>
+		<node uin="tq87glki658yyumri2p3">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="Click on Pile"/>
+		</node>
+		<node uin="tq87glki65u6j1-exrmnw">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="updateField"/>
+		</node>
 	</node>
 </nodeSet>

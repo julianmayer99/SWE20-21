@@ -191,6 +191,22 @@
 					<property name="$name" value="turn"/>
 				</node>
 			</node>
+			<node uin="tq87glki65ex2g-w1duwe">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="drawFromPile"/>
+				<property name="mod__returnType" value="void"/>
+				<property name="__aggregationEnd_returnResult" value="-5kd6yfki65i6sp-yw7jf1"/>
+				<node uin="-5kd6yfki65i6sp-yw7jf1">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="Parameter1"/>
+					<property name="mod__type" value="void"/>
+					<property name="direction" value="$return"/>
+				</node>
+			</node>
+			<node uin="tq87glki66sc1zz1xj91">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="endTurn"/>
+			</node>
 		</node>
 		<node uin="-amcqg9khm1bapb8b22u5">
 			<property name="$metaclass" value="Interface20"/>
