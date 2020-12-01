@@ -583,8 +583,8 @@
 					<property name="location_set_by_user" value="true"/>
 					<property name="bounds_setted_by_user" value="true"/>
 					<reference referencedUin="design:link:::ieje0rkhc4mxqa-87m3ts:-qbjze4khc4jjo3-qpgb8w:-46k66rkhc4iau6-qh7pl8">
-						<property name="sourceAnchor" value="2268,1443"/>
-						<property name="targetAnchor" value="2268,1486"/>
+						<property name="sourceAnchor" value="1181,1389"/>
+						<property name="targetAnchor" value="1500,1389"/>
 					</reference>
 				</reference>
 				<reference referencedUin="design:node:::-3cuw6khw3j6h7v61m78:-46k66rkhc4iau6-qh7pl8">
