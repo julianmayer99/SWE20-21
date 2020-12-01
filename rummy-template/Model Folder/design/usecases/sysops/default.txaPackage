@@ -97,6 +97,11 @@
 				<participant referencedUin="design:node:::-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7" role="Client"></participant>
 				<participant referencedUin="design:node:::-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7" role="Supplier"></participant>
 			</link>
+			<link uin="ieje0rki64vj3d-cnlqxn">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7" role="Client"></participant>
+				<participant referencedUin="design:node:::8bho0jki63blbu2wbzdh" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="l2gqtvki6415bjybwkbt">
 			<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>

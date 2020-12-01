@@ -235,6 +235,22 @@
 						</reference>
 					</reference>
 				</reference>
+				<reference referencedUin="design:node:::-qbjze4ki64ybl2wjgwxx:-46k66rkhw2dxwn-t8q18k">
+					<property name="bounds" value="225,94,155,30"/>
+				</reference>
+				<reference referencedUin="design:node:::-qbjze4khw2kfi7-h2ivka:-46k66rkhw2dxwn-t8q18k">
+					<property name="bounds" value="35,281,341,101"/>
+					<property name="bounds_setted_by_user" value="true"/>
+					<property name="location_set_by_user" value="true"/>
+					<reference referencedUin="design:link:::ieje0rkhw2nj3jwtlzuk:-qbjze4khw2kfi7-h2ivka:-46k66rkhw2dxwn-t8q18k">
+						<property name="sourceAnchor" value="1750,661"/>
+						<property name="targetAnchor" value="1750,860"/>
+					</reference>
+				</reference>
+				<reference referencedUin="design:node:::-qbjze4ki64ykkc-gf1ccv:-46k66rkhw2dxwn-t8q18k">
+					<property name="bounds" value="15,65,453,30"/>
+					<property name="location_set_by_user" value="true"/>
+				</reference>
 				<reference referencedUin="design:node:::-qbjze4khw2q1xz-oy2v85:-46k66rkhw2dxwn-t8q18k">
 					<property name="bounds" value="375,121,229,70"/>
 					<property name="location_set_by_user" value="true"/>
@@ -280,15 +296,6 @@
 						<reference referencedUin="label:$pin20InplaceEditing:design:node:::dpq96aki617cfp-4vky7h:-qbjze4khw2q1xz-oy2v85:-46k66rkhw2dxwn-t8q18k">
 							<property name="bounds" value="-28,24,71,25"/>
 						</reference>
-					</reference>
-				</reference>
-				<reference referencedUin="design:node:::-qbjze4khw2kfi7-h2ivka:-46k66rkhw2dxwn-t8q18k">
-					<property name="bounds" value="35,281,341,101"/>
-					<property name="bounds_setted_by_user" value="true"/>
-					<property name="location_set_by_user" value="true"/>
-					<reference referencedUin="design:link:::ieje0rkhw2nj3jwtlzuk:-qbjze4khw2kfi7-h2ivka:-46k66rkhw2dxwn-t8q18k">
-						<property name="sourceAnchor" value="1750,661"/>
-						<property name="targetAnchor" value="1750,860"/>
 					</reference>
 				</reference>
 			</reference>

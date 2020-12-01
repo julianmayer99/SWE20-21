@@ -67,6 +67,16 @@
 				<participant referencedUin="design:node:::a6k48rkhw2fqm5rk8c3i:-46k66rkhw2dxwn-t8q18k" role="Client"></participant>
 				<participant referencedUin="design:node:::-qbjze4khw2q1xz-oy2v85:-46k66rkhw2dxwn-t8q18k" role="Supplier"></participant>
 			</link>
+			<link uin="ieje0rki64ybl3-y1wl2p">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhw2fqm5rk8c3i:-46k66rkhw2dxwn-t8q18k" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4ki64ybl2wjgwxx:-46k66rkhw2dxwn-t8q18k" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rki64ykkd-l0cf5a">
+				<property name="$metaclass" value="containedNode"/>
+				<participant referencedUin="design:node:::a6k48rkhw2fqm5rk8c3i:-46k66rkhw2dxwn-t8q18k" role="Client"></participant>
+				<participant referencedUin="design:node:::-qbjze4ki64ykkc-gf1ccv:-46k66rkhw2dxwn-t8q18k" role="Supplier"></participant>
+			</link>
 		</node>
 		<node uin="-qbjze4khw2kfi7-h2ivka">
 			<property name="$metaclass" value="Action20"/>
@@ -302,6 +312,14 @@
 				<participant referencedUin="design:node:::sbhn20ki61jr226ksicz:-46k66rkhw2dxwn-t8q18k" role="Client"></participant>
 				<participant referencedUin="design:node:::-qbjze4ki61eswx-8xbkkd:-46k66rkhw2dxwn-t8q18k" role="Supplier"></participant>
 			</link>
+		</node>
+		<node uin="-qbjze4ki64ybl2wjgwxx">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Punkte verrechnen"/>
+		</node>
+		<node uin="-qbjze4ki64ykkc-gf1ccv">
+			<property name="$metaclass" value="Action20"/>
+			<property name="$name" value="Karten aus der Hand ablegen und dem Tisch hinzufügen"/>
 		</node>
 	</node>
 </nodeSet>
