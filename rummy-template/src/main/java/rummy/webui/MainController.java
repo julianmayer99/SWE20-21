@@ -29,6 +29,11 @@ public class MainController implements DummyObserver {
 
 	private int value;
 
+
+	public void createStructure(Karte[] cards) {
+		return;
+	}
+
 	@PostConstruct
 	private void attach() {
 		this.dummy.attach(this);
