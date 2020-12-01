@@ -14,6 +14,10 @@
 				<property name="targetAnchor" value="273,124"/>
 			</reference>
 		</reference>
+		<reference referencedUin="design:view:::V-b8dyjikh20f6rg9pjvp0">
+			<property name="bounds" value="651,565,224,211"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 		<reference referencedUin="jdt:e_class:src:package1.Spieler">
 			<property name="bounds" value="512,17,174,89"/>
 			<property name="location_set_by_user" value="true"/>

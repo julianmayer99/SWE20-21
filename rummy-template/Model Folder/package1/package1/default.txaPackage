@@ -855,7 +855,7 @@
 			<property name="$name" value="Seite darstellen"/>
 			<node uin="-fd3rhzki61tbdumd7gxa">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki61ttys-pfl4rv">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -868,9 +868,10 @@
 			<property name="$name" value="aktualisierte Seite erstellen"/>
 			<node uin="dpq96aki61tka0ulxtx0">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61tx91-kkhr64">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61tka0ulxtx0:-qbjze4ki61rys3-kz3mu3:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61tbdumd7gxa:-qbjze4ki61sm1rl62dr0:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -886,7 +887,7 @@
 			<property name="$name" value="Aktualisierte Hand und Stapel im Controller gespeichert"/>
 			<node uin="-fd3rhzki61tntv-vpdt45">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki61t8yp-219xf9">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -899,16 +900,17 @@
 			<property name="$name" value="Karte wird von der Hand des Spielers auf den offenen Stapel gelegt"/>
 			<node uin="dpq96aki61tpumf43anc">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61v031hhv5sk">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61tpumf43anc:-qbjze4ki61mwi5-h22ex3:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61tntv-vpdt45:-qbjze4ki61rbo4-bgrh3w:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
 			</node>
 			<node uin="-fd3rhzki61o3vvi6686o">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki61t7tf-e0rnax">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -921,13 +923,14 @@
 			<property name="$name" value="POST entegennehmen Karte extrahieren"/>
 			<node uin="-fd3rhzki61o1y1-w8cctq">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<node uin="dpq96aki61nzav-s2r9jn">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61umie2tqewd">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61nzav-s2r9jn:-qbjze4ki61m5lif7dmzg:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61o3vvi6686o:-qbjze4ki61mwi5-h22ex3:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -943,9 +946,10 @@
 			<property name="$name" value="Die Ausgewählte Karte wird per POST an den Server übermittelt"/>
 			<node uin="dpq96aki61nwr7t8fmp3">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61u9q3-9psl9t">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61nwr7t8fmp3:-qbjze4ki61kx999bcnqm:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61o1y1-w8cctq:-qbjze4ki61m5lif7dmzg:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -998,7 +1002,7 @@
 			<property name="$name" value="Seite darstellen"/>
 			<node uin="-fd3rhzki61detduljowl">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki61hvlt-y98r9b">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -1011,16 +1015,17 @@
 			<property name="$name" value="POST entgegennehmen Auswahl extrahieren"/>
 			<node uin="dpq96aki611qeexnxp09">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki612f5bl974qm">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki611qeexnxp09:-qbjze4ki60qkrtgti55c:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki612amw-t6oewo:kt4p5ki6120uc-q95sch:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
 			</node>
 			<node uin="-fd3rhzki60wpw3-msq7ko">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki613w5p-5z6z16">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -1038,9 +1043,10 @@
 			</link>
 			<node uin="dpq96aki60uyed14d7rm">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki60ye4z-nxofv4">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki60uyed14d7rm:-qbjze4ki60ocx0-c5lb9e:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki60wpw3-msq7ko:-qbjze4ki60qkrtgti55c:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1051,9 +1057,10 @@
 			<property name="$name" value="Seite mit aktualisierter Hand erstellen"/>
 			<node uin="dpq96aki61cwzapekwvr">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61gu332mgzr8">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61cwzapekwvr:-qbjze4khw3jbyk6uh97j:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61detduljowl:-qbjze4ki61d1tf60fkgv:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1222,16 +1229,17 @@
 			<property name="$name" value="Logik fügt Karte zur Hand des Spielers hinzu und entfernt sie vom ausgewählten Stapel"/>
 			<node uin="dpq96aki61bi9f-dyl0jl">
 				<property name="$metaclass" value="OutputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61bthb13c7z8">
 					<property name="$metaclass" value="ObjectFlow20"/>
+					<property name="label" value="String"/>
 					<participant referencedUin="design:node:::dpq96aki61bi9f-dyl0jl:kt4p5ki6120uc-q95sch:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61bn7yrkdxa5:-qbjze4ki61aiw2-19rv7k:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
 			</node>
 			<node uin="-fd3rhzki612amw-t6oewo">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="30td67ki6120uc-qk5wzf">
 				<property name="$metaclass" value="ControlFlow20"/>
@@ -1244,7 +1252,7 @@
 			<property name="$name" value="Aktualisierte Hand im Controller speichern"/>
 			<node uin="-fd3rhzki61bn7yrkdxa5">
 				<property name="$metaclass" value="InputPin20"/>
-				<property name="$name" value="String"/>
+				<property name="$name" value="InputPin20"/>
 			</node>
 			<link uin="ieje0rki61cdrb-at4dxl">
 				<property name="$metaclass" value="ControlFlow20"/>
