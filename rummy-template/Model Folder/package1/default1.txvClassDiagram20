@@ -77,5 +77,9 @@
 			<property name="bounds" value="-5,-5,141,203"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
+		<reference referencedUin="design:view:::V1hexuhkhw1lfjc-1jw4u7">
+			<property name="bounds" value="5,5,87,187"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
 	</view>
 </nodeSet>
