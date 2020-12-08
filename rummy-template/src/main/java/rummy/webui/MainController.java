@@ -34,7 +34,7 @@ public class MainController implements DummyObserver {
 
 
 
-	public void endTurn() {
+	public void endTurn(int discardIndex) {
 		return;
 	}
 
