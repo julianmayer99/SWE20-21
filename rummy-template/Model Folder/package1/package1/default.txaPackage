@@ -871,7 +871,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61tx91-kkhr64">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="html"/>
 					<participant referencedUin="design:node:::dpq96aki61tka0ulxtx0:-qbjze4ki61rys3-kz3mu3:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61tbdumd7gxa:-qbjze4ki61sm1rl62dr0:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -903,7 +903,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61v031hhv5sk">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="Field"/>
 					<participant referencedUin="design:node:::dpq96aki61tpumf43anc:-qbjze4ki61mwi5-h22ex3:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61tntv-vpdt45:-qbjze4ki61rbo4-bgrh3w:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -930,7 +930,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61umie2tqewd">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="Int"/>
 					<participant referencedUin="design:node:::dpq96aki61nzav-s2r9jn:-qbjze4ki61m5lif7dmzg:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61o3vvi6686o:-qbjze4ki61mwi5-h22ex3:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -949,7 +949,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61u9q3-9psl9t">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="Int"/>
 					<participant referencedUin="design:node:::dpq96aki61nwr7t8fmp3:-qbjze4ki61kx999bcnqm:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61o1y1-w8cctq:-qbjze4ki61m5lif7dmzg:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1018,7 +1018,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki612f5bl974qm">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="bool"/>
 					<participant referencedUin="design:node:::dpq96aki611qeexnxp09:-qbjze4ki60qkrtgti55c:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki612amw-t6oewo:kt4p5ki6120uc-q95sch:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1046,7 +1046,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki60ye4z-nxofv4">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="bool"/>
 					<participant referencedUin="design:node:::dpq96aki60uyed14d7rm:-qbjze4ki60ocx0-c5lb9e:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki60wpw3-msq7ko:-qbjze4ki60qkrtgti55c:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1060,7 +1060,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61gu332mgzr8">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="html"/>
 					<participant referencedUin="design:node:::dpq96aki61cwzapekwvr:-qbjze4khw3jbyk6uh97j:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61detduljowl:-qbjze4ki61d1tf60fkgv:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>
@@ -1232,7 +1232,7 @@
 				<property name="$name" value="OutputPin20"/>
 				<link uin="ieje0rki61bthb13c7z8">
 					<property name="$metaclass" value="ObjectFlow20"/>
-					<property name="label" value="String"/>
+					<property name="label" value="Field"/>
 					<participant referencedUin="design:node:::dpq96aki61bi9f-dyl0jl:kt4p5ki6120uc-q95sch:-46k66rkhc4iau6-qh7pl8" role="Client"></participant>
 					<participant referencedUin="design:node:::-fd3rhzki61bn7yrkdxa5:-qbjze4ki61aiw2-19rv7k:-46k66rkhc4iau6-qh7pl8" role="Supplier"></participant>
 				</link>

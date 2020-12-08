@@ -233,6 +233,14 @@
 					<property name="mod__type" value="Card[]"/>
 				</node>
 			</node>
+			<node uin="tq87glkig0nzmyiqm94p">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="drawFromPile"/>
+			</node>
+			<node uin="tq87glkig11yp1-3v5ubs">
+				<property name="$metaclass" value="Operation20"/>
+				<property name="$name" value="endTurn"/>
+			</node>
 		</node>
 		<node uin="-amcqg9khm1bapb8b22u5">
 			<property name="$metaclass" value="Interface20"/>

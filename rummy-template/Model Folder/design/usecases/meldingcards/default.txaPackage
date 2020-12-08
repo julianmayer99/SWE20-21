@@ -13,5 +13,9 @@
 			<property name="$metaclass" value="Operation20"/>
 			<property name="$name" value="refreshPage"/>
 		</node>
+		<node uin="tq87glkig0ggid-jviv8n">
+			<property name="$metaclass" value="Operation20"/>
+			<property name="$name" value="yourTurn"/>
+		</node>
 	</node>
 </nodeSet>
