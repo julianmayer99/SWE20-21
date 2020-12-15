@@ -9,7 +9,7 @@ import rummy.logic.state.port.Statemachine;
 import rummy.logic.state.port.StatemachinePort;
 
 @Component
-public class MakeTurnFactory implements {
+public class MakeTurnFactory {
 	
 	private StatemachineImpl statemachine;
 	private MakeTurnImpl makeTurnImpl;
