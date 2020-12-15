@@ -16,11 +16,14 @@ import rummy.logic.DummyObserver;
 import rummy.socketmanagement.RummySocketController;
 import rummy.webui.views.View;
 import rummy.logic.domainmodel.*;
+import rummy.logic.state.impl.StatemachineImpl;
+import rummy.logic.state.port.Observer;
+import rummy.logic.state.port.State;
 
 @SessionScope
 @Controller
 @RequestMapping("/rummy")
-public class MainController implements DummyObserver {
+public class MainController implements Observer {
 
 	@Autowired
 	private rummy.logic.Dummy dummy;
@@ -28,7 +31,9 @@ public class MainController implements DummyObserver {
 	@Autowired
 	private RummySocketController socket;
 
-	private int value;
+	//private int val;
+	//private State state;
+	private StatemachineImpl statemachine;
 
 
 
@@ -59,11 +64,11 @@ public class MainController implements DummyObserver {
 		this.dummy.detach(this);
 	}
 
-	@Override
-	public synchronized void update(int val) {
-		this.value = val;
-		this.socket.update("");
-	}
+	//@Override
+	//public synchronized void update(int val) {
+	//	this.value = val;
+	//	this.socket.update("");
+	//}
 
 	@RequestMapping(value = "/doIt", method = { RequestMethod.POST, RequestMethod.GET })
 	public synchronized String doIt(//
@@ -72,6 +77,12 @@ public class MainController implements DummyObserver {
 		if (request.getMethod().equals("POST"))  // Unterscheidung zwischen aktivem VerÃƒÂ¤ndern (POST)
 			this.dummy.incValue();               // und dem durch die VerÃƒÂ¤nderung angestoÃƒÅ¸enen GET
 		return new View(this.value).update(model);
+	}
+
+	@Override
+	public void update(State s, StatemachineImpl statemachine) {
+		statemachine.setState(s);
+		this.socket.update("");
 	}
 
 }

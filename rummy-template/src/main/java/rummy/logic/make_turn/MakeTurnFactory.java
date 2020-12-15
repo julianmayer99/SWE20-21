@@ -6,17 +6,17 @@ import rummy.logic.make_turn.impl.MakeTurnImpl;
 import rummy.logic.state.impl.StatemachineImpl;
 import rummy.logic.state.port.State;
 import rummy.logic.state.port.Statemachine;
+import rummy.logic.state.port.StatemachinePort;
 
 @Component
-public class MakeTurnFactory{
+public class MakeTurnFactory implements {
 	
-	@Autowired
-	private StatemachineImpl stateMachine; 
+	private StatemachineImpl statemachine;
 	private MakeTurnImpl makeTurnImpl;
 	
 	public void drawFromPile(boolean isOpen) 
 		{
-			if(!stateMachine.getState().isSubStateOf(State.S.PileSelect))
+			if(!statemachine.getState().isSubStateOf(State.S.PileSelect))
 				return;
 			
 			this.makeTurnImpl.drawFromPile(isOpen);
@@ -24,7 +24,7 @@ public class MakeTurnFactory{
 	
 	public void endTurn(int discardIndex) 
 		{
-			if(!stateMachine.getState().isSubStateOf(State.S.TurnActions)) 
+			if(!statemachine.getState().isSubStateOf(State.S.TurnActions)) 
 				return;
 			
 			this.makeTurnImpl.endTurn(discardIndex);
