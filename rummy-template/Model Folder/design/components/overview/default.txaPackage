@@ -236,10 +236,34 @@
 			<node uin="tq87glkig0nzmyiqm94p">
 				<property name="$metaclass" value="Operation20"/>
 				<property name="$name" value="drawFromPile"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfkig2s9g8-1ti31z"/>
+				<node uin="-5kd6yfkig2s9g8-1ti31z">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Boolean"/>
+					<property name="mod__type" value="Boolean"/>
+					<property name="$name" value="openPile"/>
+					<link uin="ieje0rkig2s9ilosn7rt">
+						<property name="$metaclass" value="TypeLink"/>
+						<participant referencedUin="design:node:::-5kd6yfkig2s9g8-1ti31z:tq87glkig0nzmyiqm94p:ba089nkfzhjmn3-fgdjz:ba089nkfzh2xy1hfssac" role="Client"></participant>
+						<participant referencedUin="design:node:::PrimitiveType.Boolean" role="Supplier"></participant>
+					</link>
+				</node>
 			</node>
 			<node uin="tq87glkig11yp1-3v5ubs">
 				<property name="$metaclass" value="Operation20"/>
 				<property name="$name" value="endTurn"/>
+				<property name="__aggregationEnd_formalParameter" value="-5kd6yfkig2tb87-13g9kx"/>
+				<node uin="-5kd6yfkig2tb87-13g9kx">
+					<property name="$metaclass" value="Parameter"/>
+					<property name="$name" value="cardIndex"/>
+					<property name="mod__typeReferencedElement" value="design:node:::PrimitiveType.Integer"/>
+					<property name="mod__type" value="Integer"/>
+					<link uin="ieje0rkig2tmj5-88ux6u">
+						<property name="$metaclass" value="TypeLink"/>
+						<participant referencedUin="design:node:::-5kd6yfkig2tb87-13g9kx:tq87glkig11yp1-3v5ubs:ba089nkfzhjmn3-fgdjz:ba089nkfzh2xy1hfssac" role="Client"></participant>
+						<participant referencedUin="design:node:::PrimitiveType.Integer" role="Supplier"></participant>
+					</link>
+				</node>
 			</node>
 		</node>
 		<node uin="-amcqg9khm1bapb8b22u5">

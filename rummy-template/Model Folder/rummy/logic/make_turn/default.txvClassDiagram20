@@ -6,12 +6,12 @@
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
 		<property name="__options" value="option.nlayout.recursive=true"/>
-		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.MakeTurn">
-			<property name="bounds" value="5,5,84,80"/>
-			<property name="location_set_by_user" value="true"/>
-		</reference>
 		<reference referencedUin="design:view:::993r9okhm2tyy0it5l6e">
 			<property name="bounds" value="109,5,81,75"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.MakeTurnFactory">
+			<property name="bounds" value="5,5,84,80"/>
 			<property name="location_set_by_user" value="true"/>
 		</reference>
 	</view>

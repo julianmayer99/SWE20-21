@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkig5p7aqq8msbv">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="logicClasses"/>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.MakeTurnFactory">
+			<property name="bounds" value="1135,395,200,122"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.make_turn.MakeTurnFactory:makeTurnImpl">
+				<property name="sourceAnchor" value="1340,453"/>
+				<property name="targetAnchor" value="1440,453"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.port.MakeTurn">
+			<property name="bounds" value="1435,128,200,94"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.impl.MakeTurnImpl">
+			<property name="bounds" value="1435,395,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:rummy.logic.make_turn.impl.MakeTurnImpl:MakeTurn">
+				<property name="sourceAnchor" value="1516,400"/>
+				<property name="targetAnchor" value="1516,227"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.meldingCards.MeldingCardsFactory">
+			<property name="bounds" value="195,395,400,92"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.meldingCards.MeldingCardsFactory:meldingCardsImpl">
+				<property name="sourceAnchor" value="600,440"/>
+				<property name="targetAnchor" value="660,440"/>
+				<property name="location_set_by_user" value="true"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.meldingCards.impl.MeldingCardsImpl">
+			<property name="bounds" value="655,395,321,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_impl:src:rummy.logic.melding_cards.impl.MeldingCardsImpl:MeldingCards">
+				<property name="sourceAnchor" value="827,400"/>
+				<property name="targetAnchor" value="827,220"/>
+			</reference>
+			<reference referencedUin="jdt:l_impl:src:rummy.logic.meldingCards.impl.MeldingCardsImpl:MeldingCards">
+				<property name="sourceAnchor" value="860,400"/>
+				<property name="targetAnchor" value="860,220"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.meldingCards.port.MeldingCards">
+			<property name="bounds" value="755,135,200,80"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

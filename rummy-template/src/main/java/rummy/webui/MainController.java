@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.context.annotation.SessionScope;
 
-import rummy.logic.Dummy;
+import rummy.logic.LogicFactory;
 import rummy.logic.DummyObserver;
 import rummy.socketmanagement.RummySocketController;
 import rummy.webui.views.View;
@@ -23,13 +23,12 @@ import rummy.logic.domainmodel.*;
 public class MainController implements DummyObserver {
 
 	@Autowired
-	private Dummy dummy;
+	private rummy.logic.Dummy dummy;
 
 	@Autowired
 	private RummySocketController socket;
 
 	private int value;
-
 
 
 
@@ -70,8 +69,8 @@ public class MainController implements DummyObserver {
 	public synchronized String doIt(//
 			String matchId, HttpServletRequest request, Model model) {
 
-		if (request.getMethod().equals("POST"))  // Unterscheidung zwischen aktivem Verändern (POST)
-			this.dummy.incValue();               // und dem durch die Veränderung angestoßenen GET
+		if (request.getMethod().equals("POST"))  // Unterscheidung zwischen aktivem VerÃƒÂ¤ndern (POST)
+			this.dummy.incValue();               // und dem durch die VerÃƒÂ¤nderung angestoÃƒÅ¸enen GET
 		return new View(this.value).update(model);
 	}
 

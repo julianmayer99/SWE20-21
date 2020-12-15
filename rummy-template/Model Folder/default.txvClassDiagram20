@@ -5,5 +5,6 @@
 	<view uin="V1hexuhkfzguejmcmdioc">
 		<property name="$defaultDiagram" value="true"/>
 		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="visibility" value="public"/>
 	</view>
 </nodeSet>

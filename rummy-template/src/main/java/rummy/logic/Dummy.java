@@ -1,10 +1,7 @@
 package rummy.logic;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import org.springframework.stereotype.Component;
-import org.springframework.web.context.annotation.ApplicationScope;
+import java.util.ArrayList;
 
 @ApplicationScope
 @Component

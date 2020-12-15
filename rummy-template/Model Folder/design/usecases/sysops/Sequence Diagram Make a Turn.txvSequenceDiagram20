@@ -13,7 +13,7 @@
 			<property name="location_set_by_user" value="true"/>
 			<property name="bounds_setted_by_user" value="true"/>
 			<reference referencedUin="design:node:::-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
-				<property name="bounds" value="1145,5,104,818"/>
+				<property name="bounds" value="1145,5,104,802"/>
 				<property name="location_set_by_user" value="true"/>
 				<reference referencedUin="design:node:::c87hzvki66rnid-rhonur:-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
 					<property name="bounds" value="42,553,20,61"/>
@@ -71,21 +71,13 @@
 				</reference>
 				<reference referencedUin="design:node:::c87hzvkig0mz5q7rlifu:-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
 					<property name="bounds" value="42,145,20,24"/>
-					<reference referencedUin="design:node:::l2gqtvkig0qn226halms:c87hzvkig0mz5q7rlifu:-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
-						<property name="background_color" value="240,240,240"/>
-						<property name="bounds" value="0,26,20,24"/>
-					</reference>
 				</reference>
 				<reference referencedUin="design:node:::c87hzvkig11nku5vaz8z:-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
 					<property name="bounds" value="42,525,20,24"/>
-					<reference referencedUin="design:node:::l2gqtvkig12iaw-b7qp1y:c87hzvkig11nku5vaz8z:-y8nsowki63ylg5itsuoy:-yrgd8eki63xatr53r9n7">
-						<property name="background_color" value="240,240,240"/>
-						<property name="bounds" value="0,26,20,24"/>
-					</reference>
 				</reference>
 			</reference>
 			<reference referencedUin="design:node:::-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
-				<property name="bounds" value="185,5,148,818"/>
+				<property name="bounds" value="185,5,148,802"/>
 				<property name="location_set_by_user" value="true"/>
 				<reference referencedUin="design:node:::c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
 					<property name="bounds" value="64,93,20,553"/>
@@ -114,9 +106,6 @@
 					<reference referencedUin="design:node:::l2gqtvkig0i5z6-izgacf:c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
 						<property name="background_color" value="240,240,240"/>
 						<property name="bounds" value="0,26,20,24"/>
-						<reference referencedUin="design:node:::c87hzvkig0rdmr-ha5n1m:l2gqtvkig0i5z6-izgacf:c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
-							<property name="bounds" value="10,110,20,24"/>
-						</reference>
 					</reference>
 					<reference referencedUin="design:node:::l2gqtvki66kwfz3r0icc:c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
 						<property name="bounds" value="0,434,20,103"/>
@@ -139,9 +128,6 @@
 					<reference referencedUin="design:node:::l2gqtvkig0vmrb8luigr:c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
 						<property name="background_color" value="240,240,240"/>
 						<property name="bounds" value="0,406,20,24"/>
-						<reference referencedUin="design:node:::c87hzvkig12ply9cmsww:l2gqtvkig0vmrb8luigr:c87hzvki6415bi4ki960:-y8nsowki63xjbt-o5ojtr:-yrgd8eki63xatr53r9n7">
-							<property name="bounds" value="10,110,20,24"/>
-						</reference>
 					</reference>
 				</reference>
 			</reference>
@@ -166,13 +152,12 @@
 					<reference referencedUin="design:node:::l2gqtvkig0mz5p-sr0z2v:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
 						<property name="background_color" value="240,240,240"/>
 						<property name="bounds" value="0,26,20,24"/>
-						<reference referencedUin="design:node:::c87hzvkig0qn23i99dr:l2gqtvkig0mz5p-sr0z2v:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
-							<property name="bounds" value="10,26,20,24"/>
+						<reference referencedUin="sd20_message_container:design:node:::l2gqtvkig0mz5p-sr0z2v:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
+							<reference referencedUin="sd20_message|1|call|103(design:node:::l2gqtvkig0mz5p-sr0z2v:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7)">
+								<reference referencedUin="sd20_message_label:sd20_message|1|call|103(design:node:::l2gqtvkig0mz5p-sr0z2v:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7)">
+								</reference>
+							</reference>
 						</reference>
-					</reference>
-					<reference referencedUin="design:node:::l2gqtvkig0rdmqwn9u21:c87hzvkig0i5z7uyzzuk:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
-						<property name="background_color" value="240,240,240"/>
-						<property name="bounds" value="0,110,20,24"/>
 					</reference>
 				</reference>
 				<reference referencedUin="design:node:::c87hzvkig0vmrcfznypq:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
@@ -180,13 +165,6 @@
 					<reference referencedUin="design:node:::l2gqtvkig11nkurxgral:c87hzvkig0vmrcfznypq:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
 						<property name="background_color" value="240,240,240"/>
 						<property name="bounds" value="0,26,20,24"/>
-						<reference referencedUin="design:node:::c87hzvkig12iaw-zs98:l2gqtvkig11nkurxgral:c87hzvkig0vmrcfznypq:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
-							<property name="bounds" value="10,26,20,24"/>
-						</reference>
-					</reference>
-					<reference referencedUin="design:node:::l2gqtvkig12plyytzsxj:c87hzvkig0vmrcfznypq:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
-						<property name="background_color" value="240,240,240"/>
-						<property name="bounds" value="0,110,20,24"/>
 					</reference>
 				</reference>
 				<reference referencedUin="design:node:::7x5rzxki66jhhvb836l3:-y8nsowki63xtk7-mab8p3:-yrgd8eki63xatr53r9n7">
