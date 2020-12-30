@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhkjbhwoed-vohczf">
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="$name" value="Class Diagram1"/>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.gameManager.GameManager">
+			<property name="bounds" value="255,435,281,201"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.gameManager.GameManager:field">
+				<property name="sourceAnchor" value="541,440"/>
+				<property name="targetAnchor" value="659,356"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.domainmodel.Field">
+			<property name="bounds" value="635,155,315,196"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.domainmodel.Field:lnkCard">
+				<property name="sourceAnchor" value="955,171"/>
+				<property name="targetAnchor" value="1040,171"/>
+				<property name="bendpoints" value=""/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.impl.MakeTurnImpl">
+			<property name="bounds" value="255,155,281,196"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.make_turn.impl.MakeTurnImpl:lnkGameManager">
+				<property name="sourceAnchor" value="400,356"/>
+				<property name="targetAnchor" value="400,440"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.make_turn.MakeTurnFactory">
+			<property name="bounds" value="15,155,200,122"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<reference referencedUin="jdt:l_ast:src:rummy.logic.make_turn.MakeTurnFactory:makeTurnImpl">
+				<property name="sourceAnchor" value="220,281"/>
+				<property name="targetAnchor" value="260,281"/>
+			</reference>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:rummy.logic.domainmodel.Card">
+			<property name="bounds" value="1035,155,200,201"/>
+			<property name="location_set_by_user" value="true"/>
+			<property name="$shortcutReference" value="true"/>
+			<property name="bounds_setted_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

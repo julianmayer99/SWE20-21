@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<node uin="-yrgd8ekjbg0p60-csxl6q">
+		<property name="$metaclass" value="SD20_Interaction"/>
+		<property name="$name" value="drawFromPile()"/>
+		<node uin="-y8nsowkjbg6gswvemrxt">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline2"/>
+			<property name="connectableElementName" value="b"/>
+			<node uin="c87hzvkjbgjtta7bbm3p">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<link uin="ieje0rkjbgj17lcjpvw2">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbg6gswvemrxt:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.domainmodel.Field" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-y8nsowkjbg1op4-sv51a0">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline1"/>
+			<property name="connectableElementName" value="a"/>
+			<node uin="c87hzvkjbg3129c2cki8">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+				<node uin="l2gqtvkjbh43mnwx2kcu">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification2"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbh43mn7ntzjn:-y8nsowkjbh2vx56um1mq:-yrgd8ekjbg0p60-csxl6q"/>
+					<property name="call_label" value="get playerAtTurn"/>
+					<property name="call_cachedSequenceNumber" value="1.1"/>
+				</node>
+				<node uin="l2gqtvkjbitetr-8zc2ws">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification3"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbitets66xpa3:-y8nsowkjbh2vx56um1mq:-yrgd8ekjbg0p60-csxl6q"/>
+					<property name="call_cachedSequenceNumber" value="1.2"/>
+					<property name="call_label" value="get Field"/>
+				</node>
+				<node uin="l2gqtvkjbgjtt9v1hct5">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbgjtta7bbm3p:-y8nsowkjbg6gswvemrxt:-yrgd8ekjbg0p60-csxl6q"/>
+					<property name="call_cachedSequenceNumber" value="1.3"/>
+					<link uin="ieje0rkjbgmkck-vy2iwj">
+						<property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+						<participant referencedUin="design:node:::l2gqtvkjbgjtt9v1hct5:c87hzvkjbg3129c2cki8:-y8nsowkjbg1op4-sv51a0:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+						<participant referencedUin="jdt:e_method:src:rummy.logic.domainmodel.Field.Field:Field~I" role="Supplier"></participant>
+					</link>
+				</node>
+			</node>
+			<link uin="ieje0rkjbg285vx6dcqa">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbg1op4-sv51a0:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.make_turn.impl.MakeTurnImpl" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkjbgjttc-cwbs81">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkjbg1op4-sv51a0:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkjbg6gswvemrxt:-yrgd8ekjbg0p60-csxl6q" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkjbh43mofq7xnv">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkjbg1op4-sv51a0:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkjbh2vx56um1mq:-yrgd8ekjbg0p60-csxl6q" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="l2gqtvkjbg312a2zr6xm">
+			<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+			<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+			<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbg3129c2cki8:-y8nsowkjbg1op4-sv51a0:-yrgd8ekjbg0p60-csxl6q"/>
+			<property name="call_cachedSequenceNumber" value="1"/>
+			<link uin="ieje0rkjbg312nfsi29q">
+				<property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+				<participant referencedUin="design:node:::l2gqtvkjbg312a2zr6xm:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="jdt:e_method:src:rummy.logic.make_turn.port.MakeTurn.drawFromPile:drawFromPile~Z" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-y8nsowkjbh2vx56um1mq">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline3"/>
+			<property name="connectableElementName" value="c"/>
+			<node uin="c87hzvkjbh43mn7ntzjn">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<node uin="c87hzvkjbitets66xpa3">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification2"/>
+			</node>
+			<link uin="ieje0rkjbh31p2-rkknmo">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbh2vx56um1mq:-yrgd8ekjbg0p60-csxl6q" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.gameManager.GameManager" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+	<node uin="-yrgd8ekjbgr1b4j2rdgx">
+		<property name="$metaclass" value="SD20_Interaction"/>
+		<property name="$name" value="endTurn()"/>
+		<node uin="-y8nsowkjbgswvu-6lo2jc">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline2"/>
+			<property name="connectableElementName" value="b"/>
+			<node uin="c87hzvkjbh7jsz2oqwir">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<link uin="ieje0rkjbh7sda-aw4v3g">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbgswvu-6lo2jc:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.domainmodel.Field" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-y8nsowkjbgrza87c7qbq">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline1"/>
+			<property name="connectableElementName" value="a"/>
+			<node uin="c87hzvkjbgse5ak1gfta">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+				<node uin="l2gqtvkjbh676e-4eui4q">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbh676f-6q508c:-y8nsowkjbh5s1ufbb0u8:-yrgd8ekjbgr1b4j2rdgx"/>
+					<property name="call_label" value="get playerAtTurn"/>
+					<property name="call_cachedSequenceNumber" value="1.1"/>
+				</node>
+				<node uin="l2gqtvkjbh7jsyta30wd">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification2"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbh7jsz2oqwir:-y8nsowkjbgswvu-6lo2jc:-yrgd8ekjbgr1b4j2rdgx"/>
+					<property name="call_cachedSequenceNumber" value="1.2"/>
+					<link uin="ieje0rkjbh84jmsxu3gi">
+						<property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+						<participant referencedUin="design:node:::l2gqtvkjbh7jsyta30wd:c87hzvkjbgse5ak1gfta:-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+						<participant referencedUin="jdt:e_method:src:rummy.logic.domainmodel.Field.endTurn:endTurn~I~I" role="Supplier"></participant>
+					</link>
+				</node>
+				<node uin="l2gqtvkjbh9etm-79p73j">
+					<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+					<property name="$name" value="SD20_Int_InvocationSpecification3"/>
+					<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbh9etn-ctju8l:-y8nsowkjbh5s1ufbb0u8:-yrgd8ekjbgr1b4j2rdgx"/>
+					<property name="call_cachedSequenceNumber" value="1.3"/>
+					<link uin="ieje0rkjbl7gla-qu3vgg">
+						<property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+						<participant referencedUin="design:node:::l2gqtvkjbh9etm-79p73j:c87hzvkjbgse5ak1gfta:-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+						<participant referencedUin="jdt:e_method:src:rummy.logic.gameManager.GameManager.nextPlayerAtTurn:nextPlayerAtTurn" role="Supplier"></participant>
+					</link>
+				</node>
+			</node>
+			<link uin="ieje0rkjbgs72i-5m72ja">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.make_turn.impl.MakeTurnImpl" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkjbh676g7bu4dj">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkjbh5s1ufbb0u8:-yrgd8ekjbgr1b4j2rdgx" role="Supplier"></participant>
+			</link>
+			<link uin="ieje0rkjbh7jt1-j82u9t">
+				<property name="$metaclass" value="SD20_Int_CommunicationLink"/>
+				<participant referencedUin="design:node:::-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="design:node:::-y8nsowkjbgswvu-6lo2jc:-yrgd8ekjbgr1b4j2rdgx" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="l2gqtvkjbgse5b-c9s7xk">
+			<property name="$metaclass" value="SD20_Int_InvocationSpecification"/>
+			<property name="$name" value="SD20_Int_InvocationSpecification1"/>
+			<property name="receiveExecutionSpecificationPuin" value="design:node:::c87hzvkjbgse5ak1gfta:-y8nsowkjbgrza87c7qbq:-yrgd8ekjbgr1b4j2rdgx"/>
+			<property name="call_cachedSequenceNumber" value="1"/>
+			<link uin="ieje0rkjbgse5d-t54q8y">
+				<property name="$metaclass" value="SD20_Message_LinkToSignatureNamedElement"/>
+				<participant referencedUin="design:node:::l2gqtvkjbgse5b-c9s7xk:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="jdt:e_method:src:rummy.logic.make_turn.impl.MakeTurnImpl.endTurn:endTurn~I" role="Supplier"></participant>
+			</link>
+		</node>
+		<node uin="-y8nsowkjbh5s1ufbb0u8">
+			<property name="$metaclass" value="SD20_Lifeline"/>
+			<property name="$name" value="Lifeline3"/>
+			<property name="connectableElementName" value="c"/>
+			<node uin="c87hzvkjbh676f-6q508c">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification1"/>
+			</node>
+			<node uin="c87hzvkjbh9etn-ctju8l">
+				<property name="$metaclass" value="SD20_ExecutionSpecification"/>
+				<property name="$name" value="SD20_ExecutionSpecification2"/>
+			</node>
+			<link uin="ieje0rkjbh5z4ja1lfoy">
+				<property name="$metaclass" value="SD20_Lifeline_LinkToConnectableElement"/>
+				<participant referencedUin="design:node:::-y8nsowkjbh5s1ufbb0u8:-yrgd8ekjbgr1b4j2rdgx" role="Client"></participant>
+				<participant referencedUin="jdt:e_class:src:rummy.logic.gameManager.GameManager" role="Supplier"></participant>
+			</link>
+		</node>
+	</node>
+</nodeSet>
