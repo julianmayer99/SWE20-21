@@ -50,7 +50,7 @@ public class MainController implements Observer {
 		return;
 	}
 
-	public void createStructure(Karte[] cards) {
+	public void createStructure(Card[] cards) {
 		return;
 	}
 

@@ -5,14 +5,16 @@ import rummy.logic.domainmodel.Field;
 
 public class GameManager {
 
-	public static int playerAtTurn;
+	public int playerAtTurn;
 	
 	private Field field;
 	private int players;
 	
 
-	public GameManager() {
+	public GameManager(int playerAmount) {
+		players = playerAmount;
 		field = new Field(players);
+		playerAtTurn = 0;
 	}
 	
 	public Field getField() {

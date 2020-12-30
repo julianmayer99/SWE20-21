@@ -11,13 +11,11 @@ import rummy.logic.domainmodel.Card.Colour;
 
 public class Field {
 
-
-	/**
-	* @link aggregation
-	*/
 	private rummy.logic.domainmodel.Card lnkCard;
 	private Stack<Card> openPile;
 	private Stack<Card> closedPile;
+	
+	private List<List<Card>> structures; //subject to change...
 
 	private List<Card>[] hands;
 
@@ -91,5 +89,16 @@ public class Field {
 		Card cardTransfer = hands[player].remove(discardIndex);
 		//Add Card on Top of open Pile
 		openPile.push(cardTransfer);
+	}
+
+	//Getters
+	public Stack<Card> getOpenPile(){
+		return openPile;
+	}
+	public Stack<Card> getClosedPile(){
+		return closedPile;
+	}
+	public List<Card> getHand(int player){
+		return hands[player];
 	}
 }
